@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: url('fondo.jpg') no-repeat center center fixed;
+  background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+}
+
+img {
+  max-width: 10%;
+  height: auto;
+}
+
+h1, h2 {
+  color: #0e57a6;
+  text-shadow: 2px 2px 5px rgba(139, 248, 210, 0.3);
+}
+
+p {
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #147654;
+  transition: background-color 0.3s, color 0.3s;
+  display: inline-block;
+  padding: 10px;
+  border: 5px solid #ff66b2;
+  border-radius: 15px;
+}
+
+ul li a:hover {
+  background-color: #1cb271;
+  color: #ffffff;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  ul li a {
+    padding: 8px;
+  }
+}
